@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --paragaraph: Poppins;
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --paragaraph-size: 16px;
+    --font-size-sm: 14px;
+    --h3-s-size: 28px;
+  
+    /* Colors */
+    --brand-secondary-card: #11182b;
+    --brand-card: #0d1322;
+    --brand-bg: #0a0f1b;
+    --w: #f1f1f1;
+    --brand-600: #069aff;
+    --brand-700-main: #0086ff;
+    --brand-50: #edfbff;
+    --text-color-200: #c8d6ef;
+    --text-color-700: #25437f;
+    --text-color-800: #223b6a;
+    --text-color-400: #618bcf;
+    --text-color-100: #e6ebf8;
+    --text-color-50: #f3f5fc;
+  
+    /* Gaps */
+    --gap-11xl: 30px;
+    --gap-2xl: 21px;
+    --gap-xs: 12px;
+    --gap-5xs: 8px;
+  
+    /* Paddings */
+    --padding-41xl: 60px;
+    --padding-xl: 20px;
+    --padding-xs: 12px;
+    --padding-base: 16px;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-mini: 15px;
+  }
+  
