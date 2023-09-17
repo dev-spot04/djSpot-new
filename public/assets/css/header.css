@@ -1,0 +1,395 @@
+.cs-header {
+    padding: 30px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background: #0A0F1B;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(49 151 169 / 20%);
+}
+
+.cs-header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header_sign_btn {
+    color: #F3F5FC;
+    margin-right: 41px;
+}
+
+.mobile-toggler-btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+.cs-navbar-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.cs-navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #98B3E1;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    padding: 0 25px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.cs-navbar-nav .nav-link.active {
+    color: #0086FF;
+}
+
+.cs-navbar-nav .nav-link:hover {
+    color: #0086FF;
+}
+
+.cs-dropdown {
+    position: relative;
+}
+
+.cs-dropdown-menu {
+    position: absolute;
+    padding: 10px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.03993px 6.1997px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    top: 45px;
+    left: 0;
+    transform: translateY(-2em);
+    z-index: -1;
+    transition: all 0.5s ease-in-out 0s, visibility 0s linear 0.5s, z-index 0s linear 0.01s;
+    width: auto;
+    min-width: 270px;
+    display: block;
+}
+
+.cs-dropdown-menu li {
+    border-bottom: 2px solid rgba(49, 151, 169, 0.1);
+    padding: 4px 0;
+}
+
+.cs-dropdown-menu li:last-child {
+    border: none;
+}
+
+.cs-dropdown:hover .cs-dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.5s;
+}
+
+.dropdown-item {
+    font-weight: 400;
+    padding: 10px 0;
+    font-size: 24px;
+    line-height: 40px;
+    color: #323132;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown-item:hover {
+    color: #3197A9;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.dropdown-item.active {
+    color: #3197A9;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #3197A9;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.cs-dropdown-megamenu li {
+    border: none;
+}
+
+.megameunu-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    margin-bottom: 19px;
+}
+
+.cs-dropdown-menu.cs-dropdown-megamenu {
+    padding: 30px;
+}
+
+.cs-dropdown-megamenu {
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+}
+
+.chevron-icn {
+    display: none;
+}
+
+/* Media css */
+
+@media screen and (max-width: 1399px) {
+    .cs-navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .megameunu-title {
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .cs-navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {
+    .mobile-toggler-btn {
+        display: block;
+        padding: 0;
+    }
+
+    .cs-navbar-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .cs-header {
+        padding: 10px 0;
+        box-shadow: 1px 4px 12px rgba(49, 151, 169, 0.2);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1200;
+    }
+
+    .cs-navbar-nav .nav-item {
+        border-bottom: 1px solid #767676;
+    }
+
+    .cs-navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+
+    .cs-navbar-nav .nav-link {
+        color: #939496;
+    }
+
+    .cs-navbar-collapse {
+        background: #0A0F1B;
+        margin: 15px -12px -8px;
+        position: fixed;
+        top: 35px;
+        left: -100%;
+        transition: 0.5s;
+        width: 300px;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 80px;
+    }
+
+    .cs-navbar-collapse.active {
+        left: 0;
+    }
+
+    .cs-logo img {
+        width: 100px;
+    }
+
+    .toggle-icon {
+        font-size: 32px;
+    }
+
+    .header_sign_btn {
+        margin-right: 0;
+        display: block;
+    }
+
+    .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background-color: #f3f5fc;
+        border-radius: 1px;
+        opacity: 1;
+        margin: 4px;
+    }
+
+    .header_signin_btn {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile-toggler-btn.x.toggle-active .icon-bar:nth-of-type(1) {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 10% 10%;
+        -ms-transform-origin: 10% 10%;
+        transform-origin: 10% 10%;
+    }
+
+    .mobile-toggler-btn.x.toggle-active .icon-bar:nth-of-type(2) {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    .mobile-toggler-btn.x.toggle-active .icon-bar:nth-of-type(3) {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 10% 90%;
+        -ms-transform-origin: 10% 90%;
+        transform-origin: 10% 90%;
+    }
+
+    .mobile-toggler-btn.x .icon-bar:nth-of-type(1) {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .mobile-toggler-btn.x .icon-bar:nth-of-type(2) {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .mobile-toggler-btn.x .icon-bar:nth-of-type(3) {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .cs-dropdown-menu {
+        position: static;
+        padding: 10px 30px;
+        visibility: visible;
+        background: transparent;
+        opacity: 1;
+        transform: translateY(0px);
+        display: none;
+    }
+
+    .cs-dropdown-menu.active {
+        display: block;
+    }
+
+    .expertise-links {
+        display: inline-block;
+        width: calc(100% - 40px);
+    }
+
+    #expertise {
+        display: inline-flex;
+        width: 35px;
+        background-color: #3197a9cf;
+        align-items: center;
+        justify-content: center;
+        height: 39px;
+    }
+
+    .chevron-icn {
+        color: #fff;
+        display: block;
+    }
+
+    .cs-dropdown-menu.cs-dropdown-megamenu {
+        display: none;
+    }
+
+    .cs-dropdown-menu.cs-dropdown-megamenu.mega-active {
+        display: block;
+    }
+
+    .chevron-icn.mega-active {
+        transform: rotate(90deg);
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+        color: #e5e5e5;
+        font-weight: 300;
+    }
+
+    .cs-dropdown-menu li {
+        border-bottom: 1px solid #767676;
+        padding: 5px 0;
+    }
+
+    .cs-dropdown-menu {
+        padding: 0 15px 0 35px !important;
+    }
+
+    .dropdown-item {
+        padding: 8px 25px;
+        font-size: 12px !important;
+    }
+
+    .megameunu-title {
+        color: #fff;
+        font-size: 14px !important;
+        padding: 0 0;
+        margin: 0 !important;
+    }
+
+    .cs-dropdown-megamenu li {
+        padding: 5px 0px;
+    }
+
+    .cs-dropdown-menu.cs-dropdown-megamenu .col-md-4 {
+        padding: 0;
+    }
+}

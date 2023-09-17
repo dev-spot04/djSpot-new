@@ -1,163 +1,159 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    
-    
-<link rel="stylesheet" href="./global.css" />
-<link rel="stylesheet"  href="./index.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
-    
-    
-    
-    </head>
-    <body>
-    
-    <div class="login">
-      <div class="login-child">
-      </div>
-      <div class="login-item">
-      </div>
-      <img class="login-inner" alt="" src="./public/rectangle-64@2x.png">
-      
-      <div class="frame-parent">
-        <img class="frame-icon" alt="" src="./public/frame.svg">
-        
-        <div class="english-uk-parent">
-          <div class="english-uk">English (UK)</div>
-          <img class="frame-child" alt="" src="./public/polygon-1.svg">
-          
-        </div>
-      </div>
-      <div class="rectangle-div">
-      </div>
-      <div class="join-waitlist-parent">
-        <div class="join-waitlist">Join Waitlist</div>
-        <div class="frame-group">
-          <div class="you-dj-name-parent">
-            <div class="you-dj-name">You DJ Name</div>
-            <div class="dj-sigma-wrapper">
-                <input type="text" class="dj-sigma" id="djName" name="djName" placeholder="Enter your DJ Name">
-            </div>
-          </div>
-          <div class="frame-container">
-            <div class="first-name-parent">
-              <div class="first-name">First Name</div>
-              <div class="usa-wrapper">
-                <input type="text" class="dj-sigma" id="firstName" name="firstName" placeholder="Enter your First Name">
-              </div>
-            </div>
-            <div class="first-name-parent">
-              <div class="first-name">Last Name</div>
-              <div class="usa-wrapper">
-                <input type="text" class="dj-sigma" id="lastName" name="lastName" placeholder="Enter your Last Name">
-              </div>
-            </div>
-          </div>
-          <div class="you-dj-name-parent">
-            <div class="you-dj-name">Email</div>
-            <div class="rakibbhm411gmailcom-wrapper">
-                <input type="email" class="dj-sigma" id="email" name="email" placeholder="Enter your Email">
-            </div>
-          </div>
-          <div class="you-dj-name-parent">
-            <div class="you-dj-name">Your Contact Number</div>
-            <div class="dj-sigma-wrapper">
-                <input type="number" class="dj-sigma" id="contactNumber" name="contactNumber" placeholder="Enter your Contact Number">
-            </div>
-          </div>
-          <div class="you-dj-name-parent">
-            <div class="you-dj-name">Enter Your Instagram Username</div>
-            <div class="dj-sigma-wrapper">
-                <input type="text" class="dj-sigma" id="instagramUsername" name="instagramUsername" placeholder="Enter your Instagram Username">
-            </div>
-          </div>
-          <div class="fi-rr-checkbox-parent">
-            <img class="fi-rr-checkbox-icon" alt="" src="./public/firrcheckbox.svg">
-            
-            <div class="ready-to-be">Ready to be customer</div>
-          </div>
-          <div class="fi-rr-checkbox-group">
-            <img class="fi-rr-checkbox-icon" alt="" src="./public/firrcheckbox.svg">
-            
-            <div class="opt-in-to">Opt in to email/text messages about the platform</div>
-          </div>
-        </div>
-        <div class="buttons-wrapper">
-            <div class="buttons" id="buttonsContainer">
-                <div class="join" id="submitButton">Join</div>
-            </div>
-        </div>
-      </div>
-      <div class="frame-div">
-        <div class="group-parent">
-          <img class="frame-item" alt="" src="./public/group-1000004212.svg">
-          
-          <b class="dj-sigma">Log in with QR code </b>
-        </div>
-        <div class="scan-this-with-container">
-          <span class="scan-this-with-container1">
-            <span>Scan this with your </span>
-            <span class="mobile">mobile </span>
-            <span>to log in instantly</span>
-          </span>
-        </div>
-      </div>
-      <div class="ellipse-div">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+
+</head>
+
+<body>
+  <div class="login">
+    <div class="login-child">
+    </div>
+    <div class="login-item">
+    </div>
+    <img class="login-inner" alt="" src="./public/rectangle-64@2x.png">
+
+    <div class="frame-parent">
+      <img class="frame-icon" alt="" src="./public/frame.svg">
+
+      <div class="english-uk-parent">
+        <div class="english-uk">English (UK)</div>
+        <img class="frame-child" alt="" src="./public/polygon-1.svg">
+
       </div>
     </div>
-    
-    
-    
-    
-    <script>
-        var buttonsContainer = document.getElementById("buttonsContainer");
-        if (buttonsContainer) {
-            buttonsContainer.addEventListener("click", function (e) {
-                // Check if the clicked element is the submit button
-                if (e.target.id === "submitButton") {
-                    // Get the value from the input field with the dj-sigma class
-                    var djNameInput = document.getElementById("djName");
-                    var djName = djNameInput.value;
-                    var firstNameInput = document.getElementById("firstName");
-                    var firstName = firstNameInput.value;
-                    var lastNameInput = document.getElementById("lastName");
-                    var lastName = lastNameInput.value;
-                    var emailInput = document.getElementById("email");
-                    var email = emailInput.value;
-                    var contactNumberInput = document.getElementById("contactNumber");
-                    var contactNumber = contactNumberInput.value;
-                    var instagramUsernameInput = document.getElementById("instagramUsername");
-                    var instagramUsername = instagramUsernameInput.value;
+    <div class="rectangle-div">
+    </div>
+    <div class="join-waitlist-parent">
+      <div class="join-waitlist">Join Waitlist</div>
+      <div class="frame-group">
+        <div class="you-dj-name-parent">
+          <div class="you-dj-name">You DJ Name</div>
+          <div>
+            <input type="text" class="dj-sigma-wrapper" id="djName" name="djName" placeholder="Enter your DJ Name">
+          </div>
+        </div>
+        <div class="frame-container">
+          <div class="first-name-parent">
+            <div class="first-name">First Name</div>
+            <div>
+              <input type="text" class="usa-wrapper" id="firstName" name="firstName" placeholder="Enter your First Name">
+            </div>
+          </div>
+          <div class="first-name-parent">
+            <div class="first-name">Last Name</div>
+            <div>
+              <input type="text" class="usa-wrapper" id="lastName" name="lastName" placeholder="Enter your Last Name">
+            </div>
+          </div>
+        </div>
+        <div class="you-dj-name-parent">
+          <div class="you-dj-name">Email</div>
+          <div>
+            <input type="email" class="dj-sigma-wrapper" id="email" name="email" placeholder="Enter your Email">
+          </div>
+        </div>
+        <div class="you-dj-name-parent">
+          <div class="you-dj-name">Your Contact Number</div>
+          <div>
+            <input type="number" class="dj-sigma-wrapper" id="contactNumber" name="contactNumber"
+              placeholder="Enter your Contact Number">
+          </div>
+        </div>
+        <div class="you-dj-name-parent">
+          <div class="you-dj-name">Enter Your Instagram Username</div>
+          <div>
+            <input type="text" class="dj-sigma-wrapper" id="instagramUsername" name="instagramUsername"
+              placeholder="Enter your Instagram Username">
+          </div>
+        </div>
+        <div class="fi-rr-checkbox-parent">
+          <input type="checkbox">
 
-                    // Make an API call to "/done" with the DJ name
-                    // Replace this with your actual API call logic
-                    // Example using fetch:
-                    fetch("/createUser", {
-                        method: "POST", // You can use POST or any other HTTP method
-                        body: JSON.stringify({ djName: djName, firstName: firstName, lastName: lastName, email: email, contactNumber: contactNumber, instagramUsername: instagramUsername }), // Send data to the API
-                        headers: {
-                            "Content-Type": "application/json"
-                        }
-                    })
-                        .then(response => {
-                            if (response.ok) {
-                                // Handle success
-                                alert("API call successful");
-                            } else {
-                                // Handle error
-                                alert("API call failed");
-                            }
-                        })
-                        .catch(error => {
-                            console.error("API call error:", error);
-                        });
-                }
+          <div class="ready-to-be">Ready to be customer</div>
+        </div>
+        <div class="fi-rr-checkbox-group">
+          <input type="checkbox">
+          <div class="opt-in-to">Opt in to email/text messages about the platform</div>
+        </div>
+      </div>
+      <div class="buttons-wrapper">
+        <div class="buttons" id="buttonsContainer">
+          <div class="join" id="submitButton">Join</div>
+        </div>
+      </div>
+    </div>
+    <div class="frame-div">
+      <div class="group-parent">
+        <img class="frame-item" alt="" src="./public/group-1000004212.svg">
+
+        <b class="dj-sigma">Log in with QR code </b>
+      </div>
+      <div class="scan-this-with-container">
+        <span class="scan-this-with-container1">
+          <span>Scan this with your </span>
+          <span class="mobile">mobile </span>
+          <span>to log in instantly</span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <script>
+    var buttonsContainer = document.getElementById("buttonsContainer");
+    if (buttonsContainer) {
+      buttonsContainer.addEventListener("click", function (e) {
+        // Check if the clicked element is the submit button
+        if (e.target.id === "submitButton") {
+          // Get the value from the input field with the dj-sigma class
+          var djNameInput = document.getElementById("djName");
+          var djName = djNameInput.value;
+          var firstNameInput = document.getElementById("firstName");
+          var firstName = firstNameInput.value;
+          var lastNameInput = document.getElementById("lastName");
+          var lastName = lastNameInput.value;
+          var emailInput = document.getElementById("email");
+          var email = emailInput.value;
+          var contactNumberInput = document.getElementById("contactNumber");
+          var contactNumber = contactNumberInput.value;
+          var instagramUsernameInput = document.getElementById("instagramUsername");
+          var instagramUsername = instagramUsernameInput.value;
+
+          // Make an API call to "/done" with the DJ name
+          // Replace this with your actual API call logic
+          // Example using fetch:
+          fetch("/createUser", {
+            method: "POST", // You can use POST or any other HTTP method
+            body: JSON.stringify({ djName: djName, firstName: firstName, lastName: lastName, email: email, contactNumber: contactNumber, instagramUsername: instagramUsername }), // Send data to the API
+            headers: {
+              "Content-Type": "application/json"
+            }
+          })
+            .then(response => {
+              if (response.ok) {
+                // Handle success
+                alert("API call successful");
+              } else {
+                // Handle error
+                alert("API call failed");
+              }
+            })
+            .catch(error => {
+              console.error("API call error:", error);
             });
         }
-    </script>
-          
-    </body>
-  </html>
+      });
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.cs-form-grp {
+    margin-bottom: 30px;
+}
+
+.cs-input-control {
+    background: #FFFFFF;
+    color: #939496;
+    border: 1.2px solid #E5E5E7;
+    border-radius: 10px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 12px 21px;
+}
+
+.cs-txtarea-control {
+    height: 134px;
+    position: relative;
+    appearance: none;
+    color: #939496;
+}
+
+.cs-input-control:focus,
+.cs-txtarea-control:focus {
+    color: #939496;
+    border-color: #E5E5E7;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* .cs-input-control::-webkit-input-placeholder {
+    opacity: 1 !important;
+    color: #E5E5E7 !important;
+}
+
+.cs-input-control:-ms-input-placeholder {
+    opacity: 1 !important;
+    color: #E5E5E7 !important;
+}
+
+.cs-input-control::placeholder {
+    opacity: 1 !important;
+    color: #E5E5E7 !important;
+} */
+
+.cs-labels {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #323132;
+    margin-bottom: 15px;
+}
+
+.cs-addon {
+    background: transparent;
+    border-right: 0;
+    border-radius: 10px;
+}
+
+.border-left {
+    border-left: none !important;
+}

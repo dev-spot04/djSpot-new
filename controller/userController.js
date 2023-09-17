@@ -7,6 +7,12 @@ exports.registrationPage = function (req, res) {
     
 }
 
+exports.homePage = function (req, res) {
+
+    res.render("user/home");
+
+}
+
 exports.createUser = function (req, res){
 
     console.log(req.body);

@@ -1,0 +1,2316 @@
+/* Media css start here */
+
+@media screen and (min-width: 1025px) {
+    .client-testimonial-nav .slick-track {
+        display: flex !important;
+        align-items: center;
+        width: 606px !important;
+        justify-content: center !important;
+        margin: 0 auto;
+        transform: translate3d(0, 0, 0) !important;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    .qd-triangle-up {
+        border-left: 17px solid transparent;
+        border-right: 17px solid transparent;
+        border-bottom: 17px solid #00ADB4;
+        top: -29px;
+    }
+
+    .qd-triangle-down {
+        border-left: 17px solid transparent;
+        border-right: 17px solid transparent;
+        border-top: 17px solid #00ADB4;
+        bottom: -29px;
+    }
+
+    .qd-steps>.qd-step:before {
+        margin-bottom: -157px;
+    }
+
+    .qd-icons {
+        width: 130px;
+        height: 144px;
+        border: 15px solid #00ADB4;
+    }
+
+    .qd-steps>.qd-step {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .qd-odd-steps {
+        bottom: -133px;
+    }
+
+    .quality-driven-wrapper {
+        margin: 260px 0 275px;
+    }
+
+    .foundation-process .eng-models-box {
+        margin-top: 90px;
+        padding-bottom: 0;
+    }
+
+    .remote-collaboration-box-img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+
+    .remote-collaboration-box-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .remote-collaboration-box {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .steps>.step {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .mlearning-boxes-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .mlearning-boxes-img img {
+        width: 30px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .mlearning-boxes-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .infra-items {
+        padding: 20px 35px;
+        margin: 0 auto 20px;
+    }
+
+    .infra-items-txt {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .mob-app-fig img {
+        max-width: 80%;
+    }
+
+    .cs-boxes-wrapper {
+        margin: 60px 0 0;
+    }
+
+    .cs-boxes-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .expertise-banner img {
+        max-width: 80%;
+    }
+
+    .pc-brand {
+        margin: 0 50px 30px 0;
+        display: inline-block;
+    }
+
+    .pc-brand img {
+        max-width: 80%;
+    }
+
+    .service-testimonial {
+        /* padding-bottom: 80px; */
+        margin-top: 80px;
+    }
+
+    .cs-heading-h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .cs-para {
+        font-size: 16px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+
+    .feature_btn_txt {
+        font-size: 16px;
+    }
+
+    .feature_icn {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+
+    .theme-btn {
+        /* padding: 16px 29px; */
+        font-size: 16px;
+        /* line-height: 16px; */
+    }
+
+    .cs-heading-h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .cs-heading-h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .eng-models-box {
+        margin-top: 60px;
+    }
+
+    .eng-models-content h5 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 20px 0 10px;
+    }
+
+    .eng-models-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-process-item p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .our-process-item h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .our-process-lst li {
+        margin-bottom: 20px;
+    }
+
+    .our-process {
+        margin: 100px 0;
+    }
+
+    .startups-widgets {
+        width: 250px;
+        height: 250px;
+    }
+
+    .slider-items p {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .slider-items {
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .slider-items h3 {
+        font-size: 12px;
+        line-height: 1.2;
+        margin: 0px 0 0;
+    }
+
+    .testimonial_content {
+        padding: 15px;
+    }
+
+    .client-pic img {
+        margin: 30px auto 10px;
+        width: 80%;
+    }
+
+    .testimonial-nav-wrapper {
+        margin-top: 50px;
+    }
+
+    .dropdown-item {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .cs-dropdown-menu {
+        padding: 10px 20px;
+    }
+
+    .dropdown-item {
+        padding: 0 0;
+    }
+
+    .megameunu-title {
+        font-size: 16px;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+
+    .cs-subs-btn {
+        min-width: 134px;
+        padding: 15px;
+    }
+
+    .box-shadows {
+        margin-top: 0;
+        margin-bottom: 24px;
+        height: calc(100% - 24px);
+    }
+
+    .box-wrapper {
+        margin-top: 83px;
+    }
+
+    .cs-para {
+        margin-top: 30px;
+    }
+
+    .product-dev-steps {
+        margin: 100px 0;
+    }
+
+    .our-work-fig img {
+        max-width: 90%;
+    }
+
+    .askblue-fig img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .cs-heading-h4 {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .our-work-fig {
+        padding: 0px;
+        height: 100%;
+    }
+
+    .cs-boxes-counter {
+        font-size: 20px;
+    }
+
+    .react-boxe-title {
+        font-size: 18px;
+    }
+
+    .infra-items-icon {
+        width: 30px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    figure.chatbot-fig img {
+        max-width: 80%;
+    }
+
+    .steps>.step:before {
+        width: 15px;
+        height: 15px;
+    }
+
+    .steps>.step:after {
+        height: 4px;
+        top: 6px;
+    }
+
+    .steps>.step:before {
+        margin-bottom: -145px;
+    }
+
+    .odd-steps {
+        bottom: -80px;
+    }
+
+    .our-values-box {
+        margin-top: 0;
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    .our-values-box-content p {
+        color: #000;
+    }
+
+    .how-wrk-content h5 {
+        font-size: 25px;
+    }
+
+    .how-wrk-box {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .get-in-touch-subtitle {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .cs-addr {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .cs-contact-box {
+        margin-top: 60px;
+    }
+
+    .contact-forms {
+        padding: 40px;
+    }
+
+    .cs-labels {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .ui-ux-subtitles {
+        font-size: 26px;
+        line-height: 38px;
+        text-align: center;
+        margin: 50px 0 15px;
+    }
+
+    .react-dev-content h5 {
+        font-size: 18px;
+    }
+
+    .react-dev-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .react-dev-box {
+        margin-top: 0;
+    }
+
+    .ui-ux-tools-items {
+        width: 15%;
+    }
+
+    .ui-ux-tools-titles {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .cs-sec {
+        padding: 100px 0;
+    }
+
+    .react-dev-fig {
+        max-width: 137px;
+    }
+
+    .react-dev-box {
+        margin-bottom: 50px;
+        min-height: 239px;
+    }
+
+    .hexa-box-titles {
+        font-size: 18px;
+    }
+
+    .hexa-wrapper {
+        max-width: 520px;
+    }
+
+    .hb-wrapper3 {
+        left: -163px;
+    }
+
+    .brands-wrapper img {
+        margin: 0 20px;
+        width: 50px;
+    }
+
+    .software-art-boxs-titles h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .software-art-boxs-titles p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+
+    .software-art-boxs {
+        margin-bottom: 30px;
+    }
+
+    .software-art-boxs-titles {
+        padding: 44px 35px 0 135px;
+    }
+
+    .software-art-content-fig {
+        text-align: center;
+    }
+
+    .software-art-content-fig img {
+        max-width: 80%;
+    }
+
+    .software-art-content-titles h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .software-art-content-titles p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .rlt-engg-boxes-titles {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .rlt-engg-boxes-icon {
+        width: 90px;
+        height: 90px;
+        top: -30px;
+    }
+
+    .testing-process-fig {
+        margin-top: 70px;
+    }
+
+    .key-testing-area {
+        padding: 100px 0 0;
+    }
+
+    .key-testing-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .ky-tst-contnts-titles {
+        font-size: 20px;
+    }
+
+    .ky-tst-counter-no {
+        font-size: 40px;
+        line-height: 62px;
+    }
+
+    .key-testing-icons {
+        width: calc(100% - 30px);
+        height: 200px;
+    }
+
+    .key-testing-icons img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .ci-cd-counters {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .ci-cd-boxes {
+        height: 160px;
+    }
+
+    .infra-auto-wrapper {
+        max-width: 720px;
+    }
+
+    .aws-features .infra-auto-wrapper {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .mlearning-widgets-txt p {
+        font-size: 14px;
+    }
+
+    .ml-solutions .box-shadows {
+        margin-top: 0;
+        margin-bottom: 45px;
+        height: calc(100% - 45px);
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .chatbot-dev-projects .box-shadows {
+        margin-top: 0;
+        margin-bottom: 60px;
+        height: calc(100% - 60px);
+        border-radius: 10px;
+        margin-left: 17px;
+        margin-right: 17px;
+        padding: 20px;
+    }
+
+    .chatbot-box-counter {
+        font-size: 24px;
+    }
+
+    .chatbot-dev-services .rlt-engg-boxes {
+        height: 130px;
+    }
+
+    .technology-landscap-titles h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .technology-landscap-titles h4 {
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    .our-technology-landscap .slick-prev,
+    .our-technology-landscap .slick-next {
+        margin: 0 -50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-name {
+        font-size: 24px;
+    }
+
+    .service-item img {
+        width: 60px;
+        height: auto;
+    }
+    .testimonial_fig {
+        min-width: 120px;
+        height: 155px;
+    }
+    .client-testimonial .slick-center .slider-items {
+        width: 90% !important;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .software-art-boxs-titles {
+        padding: 38px 35px 0 115px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .mlearning-boxes-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .infra-items-txt {
+        font-size: 16px;
+    }
+
+    .startups-widgets {
+        width: 200px;
+        height: 200px;
+    }
+
+    .global-customer {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .widgets-content {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .step-box-counter {
+        width: 200px;
+        height: 200px;
+    }
+
+    .product-dev-box {
+        padding: 0 0 0 80px;
+        min-height: 350px;
+    }
+
+    .step-counter-para {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 0;
+    }
+
+    .cs-sec {
+        padding: 50px 0;
+    }
+
+    .product-dev-steps {
+        margin: 100px 0;
+    }
+
+    .product-dev-box {
+        width: calc(100% - 170px);
+    }
+
+    .cs-heading-h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .pc-brand img {
+        max-width: 70%;
+    }
+
+    .pc-brand {
+        margin: 0 0 30px;
+    }
+
+    .cs-heading-h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .react-boxe-title {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .react-boxes {
+        margin-bottom: 30px;
+        height: calc(100% - 30px);
+    }
+
+    .rct-box-title-wrapper {
+        margin: 10px 0;
+    }
+
+    .steps>.step {
+        font-size: 16px;
+    }
+
+    .react-dev-fig {
+        max-width: 160px;
+    }
+
+    .react-dev-content {
+        width: calc(100% - 150px);
+    }
+
+    .ui-ux-tools-items {
+        width: 13%;
+    }
+
+    .hexa-captions {
+        font-size: 20px;
+    }
+
+    .hexa-fig {
+        max-width: 290px;
+        height: 252px;
+    }
+
+    .hb-wrapper3 {
+        left: -122px;
+    }
+
+    .hb-wrapper4 {
+        right: -96px;
+    }
+
+    .hexa-box-titles {
+        font-size: 14px;
+    }
+
+    .hb-wrapper5 {
+        bottom: 9px;
+        left: 78px;
+    }
+
+    .hb-wrapper6 {
+        right: 96px;
+    }
+
+    .software-art-boxs-titles h4 {
+        font-size: 16px;
+        line-height: 22px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+    }
+
+    .software-art-boxs-titles p {
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+    }
+
+    .software-art-boxs-titles {
+        padding: 32px 35px 0 100px;
+    }
+
+    .software-art-boxs {
+        margin-bottom: 0;
+    }
+
+    .straight-boxes-inner {
+        width: 150px;
+        height: 80px;
+    }
+
+    .black-txt {
+        font-size: 14px;
+    }
+
+    .straight-boxes {
+        top: 93px;
+        left: 320px;
+    }
+
+    .our-technology-landscap .slick-prev,
+    .our-technology-landscap .slick-next {
+        margin: 0 -10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .qd-icons {
+        width: 112px;
+        height: 128px;
+        border: 12px solid #00ADB4;
+    }
+
+    .qd-triangle-down {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid #00ADB4;
+        bottom: -23px;
+    }
+
+    .qd-triangle-up {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-bottom: 13px solid #00ADB4;
+        top: -23px;
+    }
+
+    .qd-steps>.qd-step:before {
+        margin-bottom: -134px;
+    }
+
+    .qd-odd-steps {
+        bottom: -110px;
+    }
+
+    .qd-steps>.qd-step {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .foundation-process .eng-models-box {
+        margin-top: 56px;
+    }
+
+    .data-engg-fig img {
+        max-width: 80%;
+    }
+
+    .react-boxes-fig img {
+        max-width: 100%;
+    }
+
+    .cs-boxes-wrapper {
+        margin: 30px 0 0;
+    }
+
+    .cs-boxes-icon {
+        width: 22px;
+    }
+
+    .even-box {
+        margin-top: 120px;
+    }
+
+    .theme-btn {
+        font-size: 14px;
+    }
+
+    .cs-boxes-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .cs-boxes-counter {
+        font-size: 15px;
+    }
+
+    .cs-contactus {
+        margin: 100px 0;
+    }
+
+    .hero-banner-content {
+        padding-top: 75px;
+    }
+
+    .here-banner {
+        background-position: top;
+    }
+
+    .cs-heading-h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 50px !important;
+    }
+
+    .cs-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cs-heading-h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .cs-heading-h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .engagement-models {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .eng-models-box {
+        margin-top: 70px;
+    }
+
+    .eng-models-box img {
+        width: 150px;
+    }
+
+    .service-box {
+        margin-top: 50px;
+    }
+
+    .service-item {
+        /* width: 130px; */
+        /* height: 130px; */
+    }
+    .service-btn-wrapper {
+        margin-top: 50px;
+    }
+
+    .our-process {
+        margin: 80px 0 0;
+    }
+
+    .our-process-content {
+        margin: 50px 0 0;
+    }
+
+    .startups {
+        margin-top: 80px;
+    }
+
+    .startups-widgets {
+        width: 150px;
+        height: 150px;
+    }
+
+    .global-customer {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .widgets-content {
+        font-size: 11px;
+        margin-top: 15px;
+        line-height: 16px;
+    }
+
+    .startups-content {
+        margin: 80px 0 0;
+    }
+
+    .our-services {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .our-services .cs-para {
+        line-height: 22px;
+    }
+
+    .client-testimonial-sec {
+        margin: 80px 0 0;
+    }
+
+    .slider-items {
+        padding: 15px;
+    }
+
+    .product-dev-box img {
+        width: auto;
+    }
+
+    .client-pic img {
+        width: 45%;
+    }
+
+    .client-testimonial-nav .slick-slide {
+        margin: 0 -90px !important;
+    }
+
+    .testimonial-nav-wrapper {
+        margin-top: 20px;
+    }
+
+    .slider-items {
+        margin: 46px 0 46px;
+    }
+
+    .ex-btn-wrapper {
+        margin: 30px auto;
+    }
+
+    .odd-steps {
+        word-break: break-word;
+        height: 100%;
+        bottom: -30px;
+    }
+
+    .aboutus-banner-fig {
+        margin-top: 0;
+    }
+
+    .how-wrk-box {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .how-wrk-img img {
+        width: auto;
+    }
+
+    .our-values-box {
+        margin-top: 0;
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    .cs-contact-box img {
+        width: auto;
+    }
+
+    .ui-ux-tools-items {
+        width: 14%;
+    }
+
+    .react-dev-box {
+        margin-top: 0;
+    }
+
+    .ui-ux-tools {
+        margin-top: 50px;
+    }
+
+    .ui-ux-subtitles {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .mobile-app-boxes p {
+        font-size: 16px;
+    }
+
+    .software-art-boxs-titles {
+        padding: 45px 78px 0 175px;
+    }
+
+    .software-art-content-titles h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .software-art-content-titles p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .software-art-content-wrapper {
+        margin-bottom: 100px;
+    }
+
+    .rlt-engg-boxes-titles {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .rlt-engg-boxes {
+        padding: 15px;
+    }
+
+    .rlt-engg-boxes-wrapper {
+        margin-top: 100px;
+    }
+
+    .related-engg-services {
+        padding: 0 0 0;
+    }
+
+    .software-art-content {
+        padding: 150px 0 100px;
+    }
+
+    .software-art-boxs {
+        background-position: center;
+    }
+
+    .key-testing-para {
+        font-size: 14px;
+    }
+
+    .ky-tst-contnts-titles {
+        font-size: 18px;
+    }
+
+    .key-testing-contents {
+        margin: 0 0;
+    }
+
+    .key-testing-icn-wrapper {
+        height: 100%;
+    }
+
+    .key-testing-icons img {
+        width: 70px;
+    }
+
+    .high-lights-area {
+        padding: 50px 0 50px;
+    }
+
+    .ci-cd-project {
+        margin: 50px 0 100px;
+    }
+
+    .ci-cd-counters {
+        font-size: 30px;
+    }
+
+    .straight-boxes-inner {
+        width: 100px;
+        height: 70px;
+    }
+
+    .realtime-stream::after {
+        margin-top: 35px;
+    }
+
+    .black-txt {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .straight-boxes {
+        top: 75px;
+        left: 265px;
+    }
+
+    .arrow-box {
+        height: 70px;
+    }
+
+    .cs-logo img {
+        width: 100px;
+    }
+
+    .cs-navbar-nav {
+        display: inline-flex;
+    }
+
+    .header_sign_btn {
+        margin-right: 21px;
+        font-size: 14px;
+    }
+
+    .banner_widgets {
+        padding: 50px 0 0;
+        align-items: flex-start;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .banner_widgets_card {
+        width: 100%;
+    }
+
+    .banner_widgets_title {
+        font-size: 32px;
+    }
+
+    .our-process-fig {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .client-testimonial .slick-center .slider-items {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service-testimonial {
+        padding-bottom: 0;
+    }
+
+    .cs-heading-h4 {
+        font-size: 20px;
+    }
+
+    .our-lates-work-title {
+        margin-bottom: 50px;
+    }
+
+    .hero-banner-content {
+        padding-top: 0;
+    }
+
+    .cs-heading-h1 {
+        text-align: center;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 50px !important;
+    }
+
+    .cs-heading-h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .cs-heading-h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .cs-para {
+        font-size: 14px;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    .our-work-content .cs-para {
+        text-align: left;
+    }
+
+    .our-work-content {
+        margin-bottom: 50px;
+    }
+
+    .our-work-fig img {
+        max-width: 100%;
+    }
+
+    .here-banner {
+        background-image: none;
+        margin-top: 20px;
+    }
+
+    .banner-btn-wrapper {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .theme-btn {
+        padding: 14px;
+        font-size: 14px;
+        line-height: 14px;
+        min-width: 150px;
+    }
+
+    .engagement-models {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .eng-models-box {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .eng-models-content h5 {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px 0 10px;
+    }
+
+    .our-process {
+        margin: 50px 0 0;
+    }
+
+    .our-process-content {
+        margin: 20px 0 0;
+    }
+
+    .eng-models-content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .our-services {
+        position: relative;
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+
+    .our-services .cs-para {
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .our-process-item h5 {
+        font-size: 16px;
+    }
+
+    .startups {
+        margin-top: 50px;
+    }
+
+    .startups-content {
+        margin: 40px auto 0;
+    }
+
+    .widgets-content {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .global-customer {
+        font-size: 26px;
+        line-height: 22px;
+    }
+
+    .startups-widgets {
+        width: 200px;
+        height: 200px;
+        margin: 15px auto;
+    }
+
+    .cs-contactus {
+        margin: 80px 0;
+    }
+
+    .contactus-title-wrap {
+        padding: 0 0 140px;
+    }
+
+    .client-testimonial-sec {
+        margin: 50px 0 50px;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+
+    .slider-items h3 {
+        margin: 0 0 0;
+        font-size: 14px;
+    }
+
+    .testimonial-nav-wrapper {
+        margin-top: 0;
+        min-height: 1px;
+    }
+
+    .slider-items {
+        margin: 40px 0px;
+    }
+
+    .slider-items {
+        flex-direction: column;
+    }
+
+    .slider-items p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .client-pic img {
+        width: 100px;
+    }
+
+    .cs-subs-btn {
+        padding: 15px;
+    }
+
+    .cs-sec {
+        padding: 50px 0 0;
+    }
+
+    .box-wrapper {
+        margin-top: 40px !important;
+    }
+
+    .product-dev-steps {
+        margin: 0px 0 50px;
+    }
+
+    .step-box-counter {
+        width: 120px;
+        min-height: 100px;
+        height: auto;
+    }
+
+    .step-counter-para {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 0px;
+    }
+
+    .product-dev-box {
+        padding: 0 0 0 20px;
+        min-height: auto;
+        width: calc(100% - 100px);
+    }
+
+    .newsletters-fomrs {
+        margin-top: 25px;
+    }
+
+    .light-flinks {
+        margin-top: 25px;
+    }
+
+    .pc-brand {
+        margin: 0 7px 15px;
+    }
+
+    .pc-brand img {
+        max-width: 70%;
+    }
+
+    .services-banner {
+        padding-bottom: 30px;
+    }
+
+    .expertise-banner {
+        padding: 20px 0;
+        margin-top: 0 !important;
+    }
+
+    .expertise-banner .hero-banner-fig {
+        margin-top: 30px;
+    }
+
+    .ex-banner-btn {
+        position: static;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .cs-boxes-wrapper {
+        margin: 20px 0 0;
+    }
+
+    .cs-boxes-title {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cs-boxes-counter {
+        font-size: 15px;
+    }
+
+    .cs-boxes-fig {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .cs-boxes-fig img {
+        max-width: 33%;
+    }
+
+    .cs-boxes-title-wrapper {
+        min-height: auto;
+        display: block;
+    }
+
+    .cs-boxes-icon {
+        width: 30px;
+        left: 51%;
+    }
+
+    .btn-arrow {
+        padding-left: 5px;
+        display: inline-block;
+        width: 25px;
+    }
+
+    .rct-boxes-wrapper {
+        margin: 40px 0 0;
+    }
+
+    .mob-app-dev {
+        margin: 50px 0;
+    }
+
+    .mob-app-fig {
+        margin: 50px auto;
+    }
+
+    .mob-app-fig img {
+        max-width: 80%;
+    }
+
+    .infra-auto-wrapper {
+        margin: 30px auto 0;
+    }
+
+    .infra-items {
+        padding: 15px;
+        margin: 0 auto 15px;
+    }
+
+    .infra-items-txt {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .infra-items-icon {
+        margin-right: 10px;
+    }
+
+    .ml-box-wrapper {
+        margin: 50px auto;
+    }
+
+    .mlearning-boxes.justify-content-center {
+        justify-content: flex-start !important;
+    }
+
+    .mlearning-boxes {
+        display: block;
+        text-align: center;
+    }
+
+    .mlearning-boxes-content p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .data-engg-fig {
+        margin: 40px 0;
+    }
+
+    .chatbot-fig {
+        margin: 40px 0 0;
+    }
+
+    .steps>.step {
+        font-size: 14px;
+    }
+
+    .steps>.step:after {
+        height: 3px;
+        top: 3px;
+    }
+
+    .steps>.step:before {
+        width: 10px;
+        height: 10px;
+        margin-bottom: -101px;
+    }
+
+    .step-icons {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .step-icons img {
+        width: 20px;
+    }
+
+    .odd-steps {
+        bottom: -18px;
+        word-break: break-word;
+        height: 100%;
+    }
+
+    .qa-test-qrapper {
+        margin: 150px 0 120px;
+    }
+
+    .react-boxes-fig img {
+        max-width: 60%;
+    }
+
+    .foundation-process .eng-models-box {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .qd-icons {
+        width: 50px;
+        height: 64px;
+        border: 5px solid #00ADB4;
+        padding: 0 3px;
+    }
+
+    .qd-triangle-down {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #00ADB4;
+        bottom: -10px;
+    }
+
+    .qd-triangle-up {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #00ADB4;
+        top: -10px;
+    }
+
+    .qd-steps>.qd-step {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .remote-collaboration-box {
+        margin-bottom: 30px;
+    }
+
+    .remote-collaboration-box-txt {
+        margin-top: 10px;
+    }
+
+    .qd-steps>.qd-step:after {
+        height: 14px;
+    }
+
+    .qd-steps>.qd-step:before {
+        margin-bottom: -65px;
+    }
+
+    .qd-odd-steps {
+        bottom: -25px;
+    }
+
+    .quality-driven-wrapper {
+        margin: 100px 0;
+    }
+
+    span.qd-text {
+        width: 50px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .remote-collaboration-box {
+        margin-top: 30px;
+    }
+
+    .aboutus-banner-fig img {
+        max-width: 100%;
+    }
+
+    .about-us-banner {
+        padding-bottom: 0;
+    }
+
+    .how-wrk-wrapper {
+        margin-top: 40px;
+    }
+
+    .custom-top-border1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .how-wrk-content p {
+        padding-bottom: 25px;
+    }
+
+    .vr-lines2 {
+        height: 54px;
+    }
+
+    .vr-lines4 {
+        height: 55px;
+    }
+
+    .custom-top-border2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custom-top-border {
+        margin: 0 auto;
+        width: 92%;
+    }
+
+    .custom-order {
+        order: -1;
+    }
+
+    .how-wrk-img img {
+        width: auto;
+    }
+
+    .aboutus-banner-fig {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .our-vision-title {
+        margin-top: 25px;
+    }
+
+    .vrt-lines-r::before {
+        display: none;
+    }
+
+    .our-values-wrapper .bottom-lines::after {
+        display: none;
+    }
+
+    .our-values-wrapper .bottom-lines {
+        border-bottom: none;
+        border-right: none;
+    }
+
+    .vrt-lines-r::after {
+        display: none;
+    }
+
+    .vrt-lines-r {
+        border-right: none;
+    }
+
+    .our-values-box {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .our-values-area .our-lates-work-title {
+        margin-bottom: 50px;
+    }
+
+    .our-values-area {
+        margin: 0 0 60px 0;
+    }
+
+    .how-wrk-box {
+        margin-top: 10px;
+    }
+
+    .get-in-touch-subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .cs-contact-box img {
+        width: auto;
+    }
+
+    .cs-contact-box {
+        height: calc(100% - 20px);
+        min-height: 175px;
+        font-size: 14px;
+    }
+
+    .contact-forms {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cs-form-grp {
+        margin-bottom: 20px;
+    }
+
+    .cs-labels {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cs-input-control {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .cs-field-wrapper .textarea-wrapper .attached-btn {
+        bottom: 6px;
+    }
+
+    .cs-field-wrapper .textarea-wrapper {
+        height: auto;
+    }
+
+    .cs-addr {
+        font-size: 14px;
+    }
+
+    .ui-ux-process-wrapper {
+        margin-top: 0;
+    }
+
+    .product-require-box {
+        margin-top: 15px;
+    }
+
+    .product-require-img {
+        width: 80px;
+        height: 80px
+    }
+
+    .product-require-img img {
+        width: 40px;
+    }
+
+    .ui-ux-subtitles {
+        margin: 20px 0 15px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .ui-ux-tools {
+        margin-top: 35px;
+    }
+
+    .ui-ux-tools-items {
+        width: 100%;
+    }
+
+    .react-dev-wrapper {
+        margin-top: 0;
+    }
+
+    .react-dev-fig {
+        max-width: 80px;
+    }
+
+    .react-dev-box {
+        margin: 20px 0;
+    }
+
+    .react-dev-content {
+        width: calc(100% - 80px);
+    }
+
+    .hexa-wrapper {
+        max-width: 350px;
+    }
+
+    .hexa-captions {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .ideation {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ideation img {
+        width: 30px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hexa-fig {
+        max-width: 200px;
+        height: 172px;
+    }
+
+    .ideation::before {
+        border: 2px solid #000;
+        bottom: -3px;
+        left: -5px;
+    }
+
+    .ideation::after {
+        border: 2px solid #000;
+        top: 25px;
+    }
+
+    .hb-wrapper4 {
+        right: 11px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hexa-wrapper {
+        padding: 78px 0;
+    }
+
+    .hb-wrapper2 {
+        right: 42px;
+    }
+
+    .hexa-box-titles {
+        margin: 0 0 5px;
+    }
+
+    .hb-wrapper2 .ideation::before {
+        top: 25px;
+    }
+
+    .hb-wrapper3 {
+        left: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 29%;
+    }
+
+    .hb-wrapper2 .ideation::after {
+        right: -5px;
+    }
+
+    .hexa-box-titles {
+        font-size: 12px;
+    }
+
+    .hb-wrapper3 .hexa-box-titles {
+        margin-right: 0;
+    }
+
+    .hb-wrapper3 .ideation::after {
+        top: -9px;
+        right: auto;
+        left: 20px;
+    }
+
+    .hb-wrapper2 {
+        right: 55px;
+    }
+
+    .hb-wrapper4 .ideation::after {
+        top: -9px;
+        left: 3px;
+    }
+
+    .hb-wrapper4 .hexa-box-titles {
+        margin-right: 0px;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .hb-wrapper4 .ideation::before {
+        bottom: -10px;
+        left: 10px;
+    }
+
+    .hb-wrapper5 {
+        bottom: -8px;
+        left: 50px;
+    }
+
+    .hb-wrapper6 {
+        right: 65px;
+        bottom: -8px;
+    }
+
+    .hb-wrapper6 .ideation::before {
+        right: 0;
+    }
+
+    .hb-wrapper5 .ideation::before {
+        left: 0;
+    }
+
+    .hb-wrapper3 .ideation::before {
+        bottom: -10px;
+        right: 8px;
+    }
+
+    .brands-wrapper {
+        margin: 40px 0 15px;
+    }
+
+    .brands-wrapper img {
+        margin: 0 10px;
+        width: auto;
+        max-width: 40px;
+    }
+
+    .box-vrtline {
+        border: none;
+    }
+
+    .mobile-app-boxes p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px 0 0;
+    }
+
+    .mobile-app-boxes-wrapper {
+        margin-top: 50px;
+    }
+
+    .mobile-app-boxes {
+        margin-bottom: 30px;
+    }
+
+    .software-architecture {
+        padding: 50px 0;
+    }
+
+    .software-art-boxs {
+        margin-left: 0;
+        margin-right: 0;
+        background-size: contain;
+        height: 100%;
+        background-position: center;
+    }
+
+    .software-art-boxs-titles {
+        padding: 21px 35px 25px 80px;
+        max-width: 370px;
+    }
+
+    .software-art-boxs-titles h4 {
+        font-size: 16px;
+        line-height: 22px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+    }
+
+    .software-art-boxs-titles p {
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .software-art-content {
+        padding: 50px 0;
+    }
+
+    .software-art-content-titles h3 {
+        font-size: 18px;
+    }
+
+    .software-art-content-titles p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 0;
+    }
+
+    .software-art-content-fig {
+        text-align: center !important;
+        margin-top: 30px;
+    }
+
+    .software-art-content-fig img {
+        max-width: 70%;
+    }
+
+    .software-art-content-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .custom-order {
+        order: -1;
+    }
+
+    .software-art-content-titles {
+        margin-top: 35px;
+        padding: 0 15px;
+    }
+
+    .related-engg-services {
+        padding: 50px 0 0;
+    }
+
+    .rlt-engg-boxes-wrapper {
+        margin-top: 70px;
+    }
+
+    .rlt-engg-boxes {
+        margin-bottom: 60px;
+        height: 147px;
+    }
+
+    .testing-process-area {
+        padding: 20px;
+    }
+
+    .testing-process-fig {
+        margin-top: 20px;
+    }
+
+    .key-testing-area {
+        padding: 50px 0 0;
+    }
+
+    .key-testing-wrapper {
+        margin: 0;
+    }
+
+    .key-testing-icons {
+        width: calc(100% - 30px);
+    }
+
+    .key-testing-icons img {
+        width: 60px;
+    }
+
+    .key-testing-icons {
+        width: calc(100% - 30px);
+        height: 130px;
+    }
+
+    .ky-tst-counter-no {
+        font-size: 30px;
+    }
+
+    .key-testing-contents {
+        margin: 0;
+    }
+
+    .ky-tst-contnts-titles {
+        font-size: 16px;
+    }
+
+    .key-testing-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .key-testing-icn-wrapper {
+        margin: 30px 0;
+        height: calc(100% - 50px);
+    }
+
+    .high-lights-area {
+        padding: 50px 0 0px;
+    }
+
+    .ci-cd-project {
+        margin: 0px 0;
+    }
+
+    .ci-cd-boxes {
+        margin-bottom: 20px;
+    }
+
+    .ci-cd-counters {
+        font-size: 26px;
+    }
+
+    .kurbernates-area {
+        padding: 20px 0;
+        margin-bottom: 0px;
+    }
+
+    .aws-features .infra-items {
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .straight-boxes {
+        position: static;
+    }
+
+    .serverless-datalake {
+        margin: 50px 0;
+    }
+
+    .serverless-box-wrapper {
+        margin: 30px 0 0;
+    }
+
+    .v-line {
+        border-right: 0;
+    }
+
+    .mlearning-widgets-txt p {
+        margin-bottom: 40px;
+    }
+
+    .big-data-potential .our-work-fig {
+        padding: 30px 0;
+    }
+
+    .our-technology-landscap {
+        padding: 50px 0;
+    }
+
+    .technology-landscap-titles h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .technology-landscap-titles h4 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .our-technology-landscap {
+        padding: 50px 0;
+    }
+
+    .our-technology-landscap .slick-prev,
+    .our-technology-landscap .slick-next {
+        margin: 0 25px;
+    }
+
+    .order-sm-1 {
+        order: -1;
+    }
+
+    .hero-banner-fig {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .banner_widgets {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .banner_widgets_title {
+        font-size: 32px;
+    }
+
+    .banner_widgets_card {
+        width: 100%;
+    }
+
+    .order_1 {
+        order: -1;
+    }
+
+    .in-line-title {
+        flex-direction: column;
+    }
+
+    .testimonial_fig {
+        /* min-width: 50px; */
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .price-card_header h4 {
+        font-size: 22px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .price-card_header h3 {
+        font-size: 16px;
+    }
+
+    .arrow-icn-wrapper {
+        display: none;
+    }
+
+    .service-box {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .service-item {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .col-md-5.pe-0 {
+        padding-right: 12px !important;
+    }
+
+    .col-md-4.p-0 {
+        padding: 0 12px !important;
+    }
+
+    .our-services {
+        margin: 0px 0 50px;
+        padding: 50px 0;
+    }
+
+    .manage-your-career {
+        margin: 50px 0;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    .footer-social-info {
+        flex-direction: column;
+    }
+
+    .manage-career-cad {
+        padding: 20px;
+        background-image: none;
+    }
+
+    .manage-career-cad .join-us-btn {
+        padding: 16px 29px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .steps>.step:before {
+        margin-bottom: -120px;
+    }
+
+    .ui-ux-tools-titles {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+}
