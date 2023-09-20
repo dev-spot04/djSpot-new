@@ -1,5 +1,42 @@
 // mobile sidemenu toggle script
 $(document).ready(function() {
+
+    // JavaScript to handle the button clicks
+const monthlyButton = document.querySelector('[data-plan="monthly"]');
+const yearlyButton = document.querySelector('[data-plan="yearly"]');
+const monthlyCard = document.querySelector('.monthly-card');
+const yearlyCard = document.querySelector('.yearly-card');
+
+monthlyButton.addEventListener('click', (event) => {
+   // Prevent the default anchor link behavior
+   event.preventDefault();
+
+   // Show the Monthly Pricing Card and hide the Yearly Pricing Card
+   monthlyCard.style.display = 'block';
+   yearlyCard.style.display = 'none';
+
+   // Update the button styles
+   monthlyButton.classList.add('is-active');
+   yearlyButton.classList.remove('is-active');
+});
+
+yearlyButton.addEventListener('click', (event) => {
+   // Prevent the default anchor link behavior
+   event.preventDefault();
+
+   // Show the Yearly Pricing Card and hide the Monthly Pricing Card
+   yearlyCard.style.display = 'block';
+   monthlyCard.style.display = 'none';
+
+   // Update the button styles
+   yearlyButton.classList.add('is-active');
+   monthlyButton.classList.remove('is-active');
+});
+
+// Initially, display the Monthly Pricing Card (you can set the default)
+monthlyCard.style.display = 'block';
+yearlyCard.style.display = 'none';
+
     $(".mobile-toggler-btn").click(function() {
         $(".cs-navbar-collapse").toggleClass("active");
         $(".x").toggleClass("toggle-active");
@@ -34,7 +71,7 @@ $(document).ready(function() {
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             }, {

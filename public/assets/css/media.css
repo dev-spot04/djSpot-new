@@ -600,10 +600,13 @@
     .testimonial_fig {
         min-width: 120px;
         height: 155px;
+        flex: 0  0 120px;
     }
     .client-testimonial .slick-center .slider-items {
-        width: 90% !important;
-        margin-left: 15px;
+        /* width: 90% !important; */
+        margin-left: auto;
+        justify-content: space-between;
+        margin-right: auto;
     }
 }
 
@@ -1180,7 +1183,10 @@
     }
 
     .client-testimonial .slick-center .slider-items {
-        width: 90% !important;
+        /* width: 90% !important; */
+    }
+    .testimonial_fig {
+        height: auto;
     }
 }
 
@@ -2300,6 +2306,17 @@
 
     .manage-career-cad .join-us-btn {
         padding: 16px 29px;
+    }
+    .client-testimonial .slick-center .slider-items {
+        /* width: 90% !important; */
+        margin-left: 0;
+    }
+    .client-testimonial .slick-center .slider-items {
+          max-width: 100% !important;
+    }
+    .testimonial_fig {
+        height: auto;
+        flex: 0 0 auto;
     }
 }
 

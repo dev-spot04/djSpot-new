@@ -99,7 +99,7 @@
                                 <span class="d-inline-block ms-2"><img src="assets/images/icons/arrow_icn.png"
                                         alt="arrow icon" /></span>
                             </a>
-                        </div>
+                        </div> 
                     </div>
 
                     <div class="header_signin_btn d-none d-md-inline-block">
@@ -134,7 +134,7 @@
                                 <div class="banner-btn-wrapper ">
                                     <a href="/registration" class="theme-btn">Get Started <span class="d-inline-block ms-2"><img
                                                 src="assets/images/icons/arrow_icn.png" alt="arrow icon" /></span></a>
-                                    <a href="#" class="theme-btn theme-btn-secondary">Explore more
+                                    <a href="/registration" class="theme-btn theme-btn-secondary">Explore more
                                     </a>
                                 </div>
 
@@ -445,11 +445,11 @@
                     <div class="row align-items-flex-end">
                         <div class="col-md-12 text-center">
                             <div class="price-plan-wrapper">
-                                <a href="#" class="plan-btn is-active">Monthly</a>
-                                <a href="#" class="plan-btn">Yearly</a>
+                                <a href="#" class="plan-btn is-active" data-plan="monthly">Monthly</a>
+                                <a href="#" class="plan-btn" data-plan="yearly">Yearly</a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 monthly-card">
                             <div class="pricing-card">
                                 <div class="price-card_header">
                                     <h4>$30 <span>/month</span></h4>
@@ -503,7 +503,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 monthly-card">
                             <div class="pricing-card is-active-card">
                                 <div class="price-card-badge">
                                     <h6>MOST POPULAR</h6>
@@ -560,7 +560,172 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 monthly-card">
+                            <div class="pricing-card">
+                                <div class="price-card_header">
+                                    <h4>$180 <span>/month</span></h4>
+                                    <h3>Premium</h3>
+                                </div>
+                                <div class="price-card-content">
+                                    <h6>Features Included :</h6>
+                                    <ul class="price-feature-list">
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Customer Relationship Builder</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Prompt Engineering</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Profit Maximization Dashboard </span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Secure Payments</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Storage Capacity: Unlimited</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-card-footer">
+                                    <button class="theme-btn tertary-btn d-block w-100">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 yearly-card" style="display: none;">
+                            <div class="pricing-card">
+                                <div class="price-card_header">
+                                    <h4>$30 <span>/month</span></h4>
+                                    <h3>Basic</h3>
+                                </div>
+                                <div class="price-card-content">
+                                    <h6>Features Included :</h6>
+                                    <ul class="price-feature-list">
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Document Management </span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Contract Handling</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Storage Capacity: 30 GB </span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/cross-outline-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Prompt Engineering</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/cross-outline-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Streamlined Booking</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-card-footer">
+                                    <button class="theme-btn tertary-btn d-block w-100">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 yearly-card" style="display: none;">
+                            <div class="pricing-card is-active-card">
+                                <div class="price-card-badge">
+                                    <h6>MOST POPULAR</h6>
+                                </div>
+                                <div class="price-card_header">
+                                    <h4>$75 <span>/month</span></h4>
+                                    <h3>Pro</h3>
+                                </div>
+                                <div class="price-card-content">
+                                    <h6>Features Included :</h6>
+                                    <ul class="price-feature-list">
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Automated Contract Management</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Automated Customer Messaging</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Calendar & Availability</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Event Inquiry Summaries</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="price-feature-icon">
+                                                <img src="assets/images/icons/check-icn.png" alt="check icon">
+                                            </span>
+                                            <span class="price-feature-text">Storage Capacity: 200 GB</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-card-footer">
+                                    <button class="theme-btn tertary-btn d-block w-100">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 yearly-card" style="display: none;">
                             <div class="pricing-card">
                                 <div class="price-card_header">
                                     <h4>$180 <span>/month</span></h4>
