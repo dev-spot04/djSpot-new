@@ -27,6 +27,8 @@ exports.createUser = function (req, res) {
     crateUserModel.email = req.body.email;
     crateUserModel.contactNumber = req.body.contactNumber;
     crateUserModel.instagramUsername = req.body.instagramUsername;
+    crateUserModel.customername = req.body.customername
+    crateUserModel.platformname = req.body.platformname
 
     crateUserModel.save((err, doc) => {
 

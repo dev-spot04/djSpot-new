@@ -1,6 +1,30 @@
 // mobile sidemenu toggle script
 $(document).ready(function() {
 
+    // Function to handle smooth scrolling
+function smoothScroll(targetId) {
+    const target = document.getElementById(targetId);
+    if (target) {
+        window.scrollTo({
+            top: target.offsetTop,
+            behavior: 'smooth'
+        });
+    }
+}
+
+// Add event listeners to the navigation links
+document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent the default behavior of the link
+            const targetId = link.getAttribute('href').substring(1); // Get the target ID
+            smoothScroll(targetId); // Scroll to the target element
+        });
+    });
+});
+
+
     // JavaScript to handle the button clicks
 const monthlyButton = document.querySelector('[data-plan="monthly"]');
 const yearlyButton = document.querySelector('[data-plan="yearly"]');

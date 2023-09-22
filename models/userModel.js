@@ -24,6 +24,12 @@ var userSchema = new Schema({
     instagramUsername:{
 		type: String,
 	},
+	customername:{
+		type: Boolean,
+	},
+	platformname:{
+		type: Boolean,
+	},
 });
 
 module.exports = mongoose.model('User', userSchema);
