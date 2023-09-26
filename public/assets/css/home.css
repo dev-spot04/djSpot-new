@@ -42,6 +42,12 @@
     margin-bottom: 20px;
 }
 
+.cs-heading-3{
+    font-size: 59px;
+    color: #F3F5FC !important;
+    font-family: 'Poppins' !important;
+}
+
 .hero-banner-content {
     padding: 100px 0 0;
 }
@@ -140,7 +146,11 @@
     position: relative;
     margin: 0px 0 150px;
     padding: 100px 0;
-    background: rgba(61, 87, 152, 0.10);
+    /* background: rgba(61, 87, 152, 0.10); */
+}
+
+.btn-wrapper-join{
+    justify-content: center;
 }
 
 .our-services-overlay {
@@ -206,7 +216,7 @@
 }
 
 .banner-img {
-    padding: 50px 0;
+    padding: 98px 0;
 }
 
 .our-process-content {
@@ -399,9 +409,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    -webkit-text-fill-color:transparent
+}
+
+.last-head{
+    -webkit-text-fill-color:transparent
 }
 
 .price-free-trails {
+    
     margin: 22px auto;
     display: flex;
     align-items: center;
@@ -583,6 +599,43 @@
 .manage-career-cad .join-us-btn {
     padding: 16px 90px;
 }
+
+
+/* virtual  css */
+.virtual{
+    margin: 180px 0 0;
+    padding: 25px;
+}
+
+.main_row{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.virtual_com{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px ;
+    background-color: #11182B;
+    border-radius: 7px;
+}
+
+.virtaul_two{
+    background-color: #0086FF !important;
+}
+
+.virtual_para{
+    padding-bottom: 15px;
+}
+
+.list_one_virtual{
+    padding-top: 20px;
+}
+
 
 /* client testimonial css */
 .slider-items p {

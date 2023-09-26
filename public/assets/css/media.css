@@ -129,8 +129,13 @@
         max-width: 80%;
     }
 
+    .virtual{
+        padding-bottom: 80px;
+        margin-top: 80px;
+    }
+
     .service-testimonial {
-        /* padding-bottom: 80px; */
+        padding-bottom: 80px;
         margin-top: 80px;
     }
 
@@ -140,9 +145,16 @@
     }
 
     .cs-para {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 32px;
         margin-top: 20px;
+    }
+
+
+    .cs-heading-3 {
+        font-size: 37px;
+        color: #F3F5FC !important;
+        font-family: 'Poppins' !important;
     }
 
     .feature_btn_txt {
@@ -597,11 +609,13 @@
         width: 60px;
         height: auto;
     }
+
     .testimonial_fig {
         min-width: 120px;
         height: 155px;
-        flex: 0  0 120px;
+        flex: 0 0 120px;
     }
+
     .client-testimonial .slick-center .slider-items {
         /* width: 90% !important; */
         margin-left: auto;
@@ -795,6 +809,11 @@
 }
 
 @media screen and (max-width: 991px) {
+
+    .main_row{
+        flex-wrap: wrap;
+    }
+
     .qd-icons {
         width: 112px;
         height: 128px;
@@ -920,6 +939,7 @@
         /* width: 130px; */
         /* height: 130px; */
     }
+
     .service-btn-wrapper {
         margin-top: 50px;
     }
@@ -1185,6 +1205,7 @@
     .client-testimonial .slick-center .slider-items {
         /* width: 90% !important; */
     }
+
     .testimonial_fig {
         height: auto;
     }
@@ -2307,13 +2328,16 @@
     .manage-career-cad .join-us-btn {
         padding: 16px 29px;
     }
+
     .client-testimonial .slick-center .slider-items {
         /* width: 90% !important; */
         margin-left: 0;
     }
+
     .client-testimonial .slick-center .slider-items {
-          max-width: 100% !important;
+        max-width: 100% !important;
     }
+
     .testimonial_fig {
         height: auto;
         flex: 0 0 auto;
